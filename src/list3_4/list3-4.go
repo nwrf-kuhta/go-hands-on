@@ -12,10 +12,12 @@ func main() {
 	fmt.Printf("value: %d. \n", n) // 246
 }
 
+// 値渡し
 func change1(n int) {
 	n *= 2
 }
 
+// 参照渡し（ポインタ渡し）
 func change2(n *int) {
 	*n *= 2
 }
